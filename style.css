@@ -12,6 +12,7 @@
     max-width: 960px;
     font-size: 40px;
 }
+
 .logo img{
     width: 100px;
     height: 100px;
@@ -20,6 +21,7 @@
 
 /* header */
 .flex-item1{
+
 }
 
 /* nav */
@@ -27,9 +29,18 @@
 
 }
 
+@media screen and(min-width:750px)
+{
+    nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 /* ol */
 .flex-item3{
-    
+    width: 960px;
+    max-width: 960px;
 }
 
 /* table */
@@ -42,4 +53,12 @@
 .flex-item5{
     width: 960px;
     align-self: center;
+}
+
+.table1{
+    background-color: antiquewhite;
+}
+
+.table2{
+    background-color: beige;
 }
