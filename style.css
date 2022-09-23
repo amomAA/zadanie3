@@ -1,0 +1,45 @@
+.flex-container{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logo{
+    width: 960px;
+    max-width: 960px;
+    font-size: 40px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+/* header */
+.flex-item1{
+}
+
+/* nav */
+.flex-item2{
+
+}
+
+/* ol */
+.flex-item3{
+    
+}
+
+/* table */
+.flex-item4{
+    width: 960px;
+    max-width: 960px;
+}
+
+/* form */
+.flex-item5{
+    width: 960px;
+    align-self: center;
+}
