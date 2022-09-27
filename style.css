@@ -112,11 +112,21 @@
     .flex-item4{
         width: 960px;
         max-width: 960px;
+        order: 6;
     }
     
     /* form */
     .flex-item5{
         width: 960px;
         align-self: center;
+        order: 8;
+    }
+
+    .table-head{
+        order: 5;
+    }
+    
+    .form-head{
+        order: 7;
     }
 }
