@@ -29,7 +29,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     width: 100%;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     order: 2;
     flex-direction: column;
@@ -83,7 +83,7 @@
     order: 5;
 }
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 1000px){
     .flex-container{
         align-content: center;
         align-items: center;
